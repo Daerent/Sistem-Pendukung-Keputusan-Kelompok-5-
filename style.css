@@ -1,0 +1,173 @@
+*{
+    font-family: "Poppins", sans-serif;
+  /* font-weight: 200; */
+    font-style: normal;
+    text-decoration: white;
+}
+.result-pengecekan-kariawan{
+    background: transparent;
+    padding: 80px;
+    border-radius: 8px;
+    width: 40%;
+    border: 2px solid #e6717b;
+    margin: 0 auto;
+    display: none;
+}
+.form-container {
+    background: transparent;
+    padding: 50px;
+    border-radius: 8px;
+    border: 2px solid #e6717b;
+    width: 40%;
+    margin: 0 auto;
+    /* display: none; */
+}
+.card-form{
+    /* border: 1px green solid; */
+    align-items: center;
+    /* justify-content: center; */
+}
+.container-biodata{
+    border: 2px #e6717b solid;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.biodata-label{
+    margin-right: 30px;
+    width: 200px;
+}  
+h3{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #e6717b;
+    font-family: "Merriweather", serif;
+}
+.kulaitas-karyawan{
+    border: 2px solid #e6717b;
+    color: white;
+}
+.input-kwalitas{
+    text-align: center;
+}
+.tes1{
+    margin-left: 280px;
+}
+.tes2{
+    margin-left: 240px;
+}
+.tes3{
+    margin-left: 175px;
+}
+.tes4{
+    margin-left: 53px;
+    color: #33ccff;
+}
+.tes5{
+    margin-left: 43px;
+}
+.tes6{
+    margin-left: 147px;
+}
+.tes7{
+    margin-left: 112px;
+}
+.tes8{
+    margin-left: 37px;
+}
+.tes9{
+    margin-left:4px;
+}
+.tes10{
+    margin-left: 104px;
+}
+.tes11{
+    margin-left: 194px;
+}
+.tes12{
+    margin-left: 30px;
+}
+.tombol{
+    margin-top: 10px;
+}
+.tabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Cara 1 */
+table{
+    border-collapse: collapse;
+    border: 2px solid #e6717b;
+    color: white;
+}
+th{
+    padding: 8px;
+    border: 2px solid #e6717b;
+}
+thead tr{
+    border-bottom: 2px solid #e6717b;
+}
+td{
+    padding: 8px;
+    border: 2px solid #e6717b;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+#form_karyawan_button1 .anak1{
+    float: right;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 40px;
+    background: #e6717b;
+    color: white;
+}
+#form_karyawan_button .anak{
+    float: right;
+    margin-top: 40px;
+    width: 20%;
+    border-radius: 40px;
+    background: #e6717b;
+    color: white;
+}
+.input{
+    color: red;
+}
+.span{
+    font-family: "Merriweather", serif;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #e6717b;
+    background-color: white;
+    color: black;
+}
+span{
+    font-family: "Merriweather", serif;
+}
+
+/* Cara 2 */
+/* tabel {
+    border-collapse: collapse;
+    width: 20px;   
+}
+
+
+
+th,td {
+    border: 1px solid black;
+} */

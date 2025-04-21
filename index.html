@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Handlee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <title>Pengimputan</title>
+</head>
+
+<body id="body" style="background-color: #312b39;">
+    <header>
+        <h1 id="judul">SISTEM PENGECEKAN <span style="color:white;">KUALITAS KARYAWAN</span></h1>
+    </header>
+    <main>
+        <section class="form-container" id="form-container">
+            <div class="card-form">
+                <form action="" id="formInput">
+                    <div class="container-biodata">
+                        <h3>Masukan Biodata Karyawan</h3>
+                        <br />
+                        <div class="form-group">
+                            <label for="name" class="biodata-label"> Nama Karyawan</label>
+                            <input type="text" id="namaInput">
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="biodata-label"> Jabatan Karyawan</label>
+                            <input type="text" id="jabatanInput">
+                        </div>
+                    </div>
+                    <div class="kulaitas-karyawan">
+                        <h3 style="background-color: b">Kualitas Karyawan</h3>
+                        <br />
+                        <div class="input-kwalitas">
+                            <label for="">Kinerja </label>
+                            <input type="range" class="tes1" id="range1" min="0" max="100" value="0">
+                            <span class="span" id="box1"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Kompetensi </label>
+                            <input type="range" class="tes2" id="range2" min="0" max="100" value="0">
+                            <span class="span" id="box2"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="" class="label">Sikap dan Etika Kerja </label>
+                            <input type="range" class="tes3" id="range3" min="0" max="100" value="0">
+                            <span class="span" id="box3"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Kepemimpinan dan Kerja Sama Tim </label>
+                            <input type="range" class="tes4" id="range4" min="0" max="100" value="0">
+                            <span class="span" id="box4"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Pelayanan dan Kepuasan Pelanggan </label>
+                            <input type="range" class="tes5" id="range5" min="0" max="100" value="0">
+                            <span class="span" id="box5"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Loyalitas dan Komitmen </label>
+                            <input type="range" class="tes6" id="range6" min="0" max="100" value="0">
+                            <span class="span" id="box6"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Kualitas Layanan yang Buruk </label>
+                            <input type="range" class="tes7" id="range7" min="0" max="100" value="0">
+                            <span class="span" id="box7"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Adaptasi dan Kemampuan Berinovasi </label>
+                            <input type="range" class="tes8" id="range8" min="0" max="100" value="0">
+                            <span class="span" id="box8"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Kurangnya Dedikasi terhadap Perusahaan </label>
+                            <input type="range" class="tes9" id="range9" min="0" max="100" value="0">
+                            <span class="span" id="box9"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Ketidakefesienan dalam Kerja </label>
+                            <input type="range" class="tes10" id="range10" min="0" max="100" value="0">
+                            <span class="span" id="box10"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Kurangnya Disiplin </label>
+                            <input type="range" class="tes11" id="range11" min="0" max="100" value="0">
+                            <span class="span" id="box11"> 50 </span>
+                        </div>
+                        <div class="input-kwalitas">
+                            <label for="">Ketidaksiapan Menghadapi Perubahan </label>
+                            <input type="range" class="tes12" id="range12" min="0" max="100" value="0">
+                            <span class="span" id="box12"> 50 </span>
+                        </div>
+                    </div>
+                    <div id="form_karyawan_button1">
+                        <button id="anak1" class="anak1" type="button">Enter</button>
+                </form>
+            </div>
+        </section>
+        <section class="result-pengecekan-kariawan" id="result-pengecekan-kariawan">
+            <div class="card-form">
+                <form action="" id="form_karyawan">
+                    <div class="container-biodata">
+                        <h3>Biodata Karyawan</h3>
+                        <br />
+                        <div class="form-group">
+                            <label class="biodata-label"> Nama Karyawan</label>
+                            <div id="display-nama">Sample</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="biodata-label"> Jabatan Karyawan</label>
+                            <div id="display-jabatan">Sample</div>
+                        </div>
+                    </div>
+                    <div class="tabel">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Kualitas</th>
+                                    <th>Values</th>
+                                    <th>Benefit / Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Kinerja</td>
+                                    <td id="values1">0</td>
+                                    <td>Benefit</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Kompetensi</td>
+                                    <td id="values2">0</td>
+                                    <td>Benefit</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Sikap dan Etika Kerja</td>
+                                    <td id="values3">0</td>
+                                    <td>Benefit</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Kepemimpinan dan Kerja Sama Tim</td>
+                                    <td id="values4">0</td>
+                                    <td>Benefit</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Pelayanan dan Kepuasan Pelanggan</td>
+                                    <td id="values5">0</td>
+                                    <td>Benefit</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Loyalitas dan Komitmen</td>
+                                    <td id="values6">0</td>
+                                    <td>Benefit</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Kualitas Layanan yang Buruk</td>
+                                    <td id="values7">0</td>
+                                    <td>Cost</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Adaptasi dan Kemampuan Berinovasi</td>
+                                    <td id="values8">0</td>
+                                    <td>Benefit</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Kurangnya Dedikasi terhadap Perusahaan</td>
+                                    <td id="values9">0</td>
+                                    <td>Cost</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Ketidakefesienan dalam Kerja</td>
+                                    <td id="values10">0</td>
+                                    <td>Cost</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Kurangnya Disiplin</td>
+                                    <td id="values11">0</td>
+                                    <td>Cost</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Ketidaksiapan Menghadapi Perubahan</td>
+                                    <td id="values12">0</td>
+                                    <td>Cost</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="form_karyawan_button">
+                        <button class="anak" id="btn-kembali" type="button">Sebelumnya</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Create By Kelompok 5 2025
+    </footer>
+</body>
+<!-- <script src="index.js"></script> -->
+<script type="module" src="eventDom.js"></script>
+<script type="module" src="kalkulasiSMART.js"></script>
+
+</html>
